@@ -10,6 +10,9 @@ root.option_add('*tearOff', FALSE)
 root.configure(background='#6dd5ed')
 # win = Toplevel(root)
 # Menu Bar
+# bg_image = ImageTk.PhotoImage(Image.open("images/Background Menu.png"))
+# bg_frame = Frame(root, bg_image)
+
 menubar = Menu(root, bg='#56ab2f')
 root['menu'] = menubar
 menu_options = Menu(menubar, bg='#56ab2f', fg='white')
