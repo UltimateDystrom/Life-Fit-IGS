@@ -1,0 +1,9 @@
+digraph get_files{
+    Abrir_carpeta_gifs -> Almacenar_PATHS_en_lista
+    Almacenar_PATHS_en_lista -> Escoger_ejercicios_aleatorios_de_la_lista
+    Escoger_ejercicios_aleatorios_de_la_lista -> Crear_nueva_lista_personalizada
+    Crear_nueva_lista_personalizada -> Eliminar_duplicados 
+    
+
+
+}

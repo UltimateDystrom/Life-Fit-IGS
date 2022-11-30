@@ -1,0 +1,16 @@
+digraph five_minutes{
+    Seleccionar_tiempo -> Iniciar_entrenamiento [label="10"]
+    Iniciar_entrenamiento -> Desplegar_ventana_entrenamiento [label="1"]
+    Desplegar_ventana_entrenamiento -> A
+    A->B [label="30"]
+    B->C [label="30"]
+    C->D [label="30"]
+    D->E [label="30"]
+    E->F [label="30"]
+    F->G [label="30"]
+    G->H [label="30"]
+    H->I [label="30"]
+    I->J [label="30"]
+    J->Entrenamiento_terminado [label="30"]
+
+}

@@ -1,0 +1,6 @@
+digraph reproducción{
+    Crear_label -> Obtener_frames_del_gif
+    Obtener_frames_del_gif -> Poner_primer_frame_del_gif
+    Poner_primer_frame_del_gif -> Comenzar_ciclo_en_los_frames
+    Comenzar_ciclo_en_los_frames -> Actualizar_ventana
+}
