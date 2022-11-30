@@ -1,2 +1,2 @@
-# ProyectoIntegradorFITEC2022
-Proyecto de primer semestre.
+# Life-Fit IGS
+Proyecto integrador de primer semestre.
